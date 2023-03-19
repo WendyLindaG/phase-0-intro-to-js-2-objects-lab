@@ -8,6 +8,8 @@ const employee = {
   employee.name = "Patricia";
   employee.streetAddress = "Meru";
   employee;
+  
+
   function updateEmployeeWithKeyAndValue(employee, key, value) {
     const newEmployee = { ...employee };
     newEmployee[key] = value;  return newEmployee;
